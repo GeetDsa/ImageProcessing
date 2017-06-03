@@ -11,8 +11,9 @@ void main()
 	int i,j;
 	FILE *fp,*fp2;
 
-	fp=fopen("/home/geet/Mini_project/img.txt","r");
-	fp2=fopen("/home/geet/Mini_project/img2.txt","w");
+	//Use space separated pixel value in a *.txt file
+	fp=fopen("<Enter the path of txt file here within the braces>","r");
+	fp2=fopen("<Enter the path of the txt file here within the braces>","w");
 
 	if(fp==NULL)
 	{
